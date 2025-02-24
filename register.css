@@ -1,0 +1,293 @@
+/* start rules  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+ol {
+    list-style: none;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    box-shadow: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+}
+
+
+
+/* end rules  */
+
+
+/* start nav */
+.navbar{
+    background-color: white;
+    position: relative;
+    z-index: 200;
+    
+    
+}
+.navbar-toggler:focus{
+    border: none;
+    box-shadow: none;
+}
+.navbar .navbar-brand{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, .9);
+}
+.navbar .navbar-brand span{
+    color: #30e3ca;
+    font-weight: 700;
+}
+.navbar .navbar-nav{
+    text-align: center;
+}
+.navbar .navbar-nav .nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: rgb(5, 20, 65);
+    position: relative;
+    font-size: 15px;
+    font-weight: 100;
+    padding: 15px 10px;
+    transition: 0.3s;
+}
+
+.navbar .navbar-nav .nav-item .post{
+    color: white;
+    padding: 8px 12px;
+    background-color: #30e3ca;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #30e3ca !important;
+}
+
+.navbar .navbar-nav .nav-item .post:hover{
+    color: white !important;
+}
+
+.navbar .navbar-nav .login{
+    margin-left: 70px;
+}
+
+@media (max-width: 991px){
+    .navbar .navbar-nav .nav-item{
+        margin-bottom: 10px;
+    }
+    .navbar .navbar-nav .login{
+        margin-left: 0;
+    }
+    .navbar .navbar-nav .nav-item .post{
+        width: 100%;
+    }
+}
+
+
+
+/* end nav */
+
+/* start home  */
+.home{
+    background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)),
+    url(./images/xhero_2.jpg.pagespeed.ic._xYTRIlPTB.webp);
+    margin-top: -150px;
+    height: 70vh;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    color: white;
+}
+.home .container p{
+    color: rgba(255, 255, 255, 0.418);
+    margin-top: -10px;
+}
+
+
+/* end home  */
+
+
+
+/* start register  */
+
+.register {
+    margin-top: 100px;
+}
+
+
+.register .container form{
+    width: 50%;
+} 
+.register .container form p a{
+    color: #30e3ca;
+}
+.register .container form .btn{
+    background-color: #30e3ca;
+    border: none;
+    border-radius: 0;
+} 
+.register .container form .btn:hover{
+    background-color: #007bff;
+
+} 
+
+
+
+@media(max-width: 772px){
+    .register .container form{
+        width: 100%;
+    } 
+    
+}
+
+
+
+/* end register  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start news  */
+
+
+.news{
+    background-color: #30e3ca;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    height: 150px;
+}
+
+.news .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.news .container form {
+    display: flex;
+}
+
+.news .container form input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    padding-left: 0;
+    box-shadow: unset;
+    color: white;
+    
+}
+
+.news .container form input::placeholder{
+    color: white;
+}
+.news .container form .btn{
+    border-radius: 0px;
+}
+.news .container form .btn:hover{
+    color: black;
+}
+/* end news  */
+
+
+
+/* strat footer  */
+footer{
+    padding: 70px 0;
+    background-color: #333;
+    color: white;
+}
+footer .container .row{
+    padding: 90px 0;
+    border-bottom: 1px solid #888;
+}
+footer .container .row::before{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+footer .container .text h5{
+    margin-bottom: 20px;
+    
+}
+
+footer .container .text p{
+    color: #888;
+    font-size: 14px;
+}
+footer .container .about p{
+    width: 250px;
+}
+footer .container .text a i{
+    color: #888;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+footer .container form input{
+    background-color: transparent !important;
+    border-radius: 0;
+    box-shadow: unset;
+    width: 100% !important;
+    border-color: #6c757d !important;
+    color: white !important;
+}
+footer .container form .btn{
+    background-color: #30e3ca;
+    border-radius: 0;
+
+}
+footer .container form input::placeholder{
+    color: #888;
+}
+
+
+footer .container .copyright{
+    padding: 100px 0;
+    font-size: 14px;
+    color: #888;
+}
+
+/* end footer  */

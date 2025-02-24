@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASSY ADS</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- strat nav  -->
+    <nav class="navbar navbar-expand-lg mt-4 container p-3">
+        <a class="navbar-brand" href="#">CLASSY<span>ADS</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="button_menue">Menu</span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./ads.html">Ads</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page"  href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item login">
+                    <a class="nav-link active" aria-current="page" href="./login.html">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./register.html">Register</a>
+                </li>
+                <li class="nav-item ms-4">
+                    <a class="nav-link active post" aria-current="page" href="#">+ Post an Ad</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end nav  -->
+
+
+
+    <!-- start home  -->
+    <section class="home">
+        <div class="container">
+            <h1>Largest Classifieds In The World</h1>
+            <p>You can buy, sell anything you want.</p>
+            <form class="row row-cols-lg-auto align-items-center">
+                <div class="col-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="What are you looking for?">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Location">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <select class="form-select" id="inlineFormSelectPref">
+                        <option selected>All Categories</option>
+                        <option value="1">Real Estate</option>
+                        <option value="2">Books & Magazines</option>
+                        <option value="3">Furniture</option>
+                        <option value="4">Electronics</option>
+                        <option value="5">Cars & Vechicels</option>
+                        <option value="6">Others</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <!-- end home  -->
+
+
+
+
+
+    <!-- start featured -->
+    <section class="featured">
+        <div class="container">
+            <div class="center">
+
+                <div class="row boxs">
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box left">
+                            <a href="#">
+                                <i class="fa-solid fa-building"></i>
+                                <h5>Real Estate</h5>
+                                <p>3,921</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box">
+
+                            <a href="#">
+                                <i class="fa-solid fa-book"></i>
+                                <h5>Books & Magazines</h5>
+                                <p>398</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box">
+
+                            <a href="#">
+                                <i class="fa-solid fa-bed"></i>
+                                <h5>Furniture</h5>
+                                <p>1,229</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box">
+                            <a href="#">
+                                <i class="fa-solid fa-lightbulb"></i>
+                                <h5>Electronics</h5>
+                                <p>32,891</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box">
+
+                            <a href="#">
+                                <i class="fa-solid fa-car"></i>
+                                <h5>Cars &amp; Vechicels</h5>
+                                <p>29,221</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 ">
+                        <div class="box right">
+
+                            <a href="#">
+                                <i class="fa-solid fa-pizza-slice"></i>
+                                <h5>Other</h5>
+                                <p>219</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured_ads">
+                    <div class="header">
+                        <h5>Featured Ads</h5>
+                    </div>
+                    <div class="cards">
+                        <div class="row g-4">
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="card">
+                                    <div class="img">
+
+                                        <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" class="card-img-top"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="like d-flex align-items-center justify-content-between">
+                                            <a href="#">
+                                                <p>Cars & Vechicels</p>
+                                            </a>
+                                            <a href="#"><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">House with Swimming Pool</a>
+                                            <p>Don St. Brooklyn, New York</p>
+                                        </div>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="card">
+                                    <div class="img">
+
+                                        <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" class="card-img-top"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="like d-flex align-items-center justify-content-between">
+                                            <a href="#">
+                                                <p>Cars & Vechicels</p>
+                                            </a>
+                                            <a href="#"><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">House with Swimming Pool</a>
+                                            <p>Don St. Brooklyn, New York</p>
+                                        </div>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="card">
+                                    <div class="img">
+
+                                        <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" class="card-img-top"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="like d-flex align-items-center justify-content-between">
+                                            <a href="#">
+                                                <p>Cars & Vechicels</p>
+                                            </a>
+                                            <a href="#"><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">House with Swimming Pool</a>
+                                            <p>Don St. Brooklyn, New York</p>
+                                        </div>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 ">
+                                <div class="card">
+                                    <div class="img">
+
+                                        <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" class="card-img-top"
+                                            alt="...">
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="like d-flex align-items-center justify-content-between">
+                                            <a href="#">
+                                                <p>Cars & Vechicels</p>
+                                            </a>
+                                            <a href="#"><i class="fa-solid fa-heart" aria-hidden="true"></i></a>
+                                        </div>
+                                        <div class="text">
+                                            <a href="#">House with Swimming Pool</a>
+                                            <p>Don St. Brooklyn, New York</p>
+                                        </div>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </section>
+    <!-- end featured -->
+
+
+
+
+
+    <!-- start Popular -->
+    <section class="popular">
+        <div class="container">
+            <div class="header">
+                <h2>Popular Products</h2>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="./images/car.webp" alt="">
+                        </div>
+                        <div class="box_body">
+                            <div class="link">
+                                <a href="#">Cars Vechicels</a>
+                            </div>
+                            <div class="like d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <a href="#">Red Luxury Car</a>
+                                    <p>West Orange, New York</p>
+                                </div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" alt="">
+                        </div>
+                        <div class="box_body">
+                            <div class="link">
+                                <a href="#">Cars Vechicels</a>
+                            </div>
+                            <div class="like d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <a href="#">Red Luxury Car</a>
+                                    <p>West Orange, New York</p>
+                                </div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="./images/chair.webp" alt="">
+                        </div>
+                        <div class="box_body">
+                            <div class="link">
+                                <a href="#">Cars Vechicels</a>
+                            </div>
+                            <div class="like d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <a href="#">Red Luxury Car</a>
+                                    <p>West Orange, New York</p>
+                                </div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="./images/phone.webp" alt="">
+                        </div>
+                        <div class="box_body">
+                            <div class="link">
+                                <a href="#">Cars Vechicels</a>
+                            </div>
+                            <div class="like d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <a href="#">Red Luxury Car</a>
+                                    <p>West Orange, New York</p>
+                                </div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box">
+                        <div class="img">
+                            <img src="./images/ximg_2.jpg.pagespeed.ic.5-pth7OZ43.webp" alt="">
+                        </div>
+                        <div class="box_body">
+                            <div class="link">
+                                <a href="#">Cars Vechicels</a>
+                            </div>
+                            <div class="like d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <a href="#">Red Luxury Car</a>
+                                    <p>West Orange, New York</p>
+                                </div>
+                                <div class="icon">
+                                    <a href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Popular -->
+
+
+
+
+
+
+    <!-- start trending -->
+    <section class="trending">
+        <div class="container">
+            <div class="header">
+                <h3>Trending Today</h3>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="box mb-3">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="img">
+                                    <img src="./images/car.webp" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="text">
+                                    <div class="like d-flex justify-content-between align-items-center">
+                                        <p>Cars & Vechicels</p>
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="data">
+                                        <a href="#">House with Swimming Pool</a>
+                                        <p>Don St. Brooklyn, New York</p>
+                                        <div class="rate d-flex align-items-center">
+                                            <div class="icons">
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star active"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>(3 Reviews)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end trending -->
+
+
+
+
+
+    <!-- start testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="header">
+                <h4>Testimonials</h4>
+                <img src="./images/xperson_2.jpg.pagespeed.ic.zY-y25qZs4.webp" alt="">
+                <h6>John Smith</h6>
+                <p>“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam
+                    quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur.
+                    Amet dolores excepturi earum unde iusto.”</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="box">
+                        <img src="./images/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="">
+                        <div class="box_body">
+                            <h5>Many People Selling Online</h5>
+                            <span>by Maker spiker • Jan 18, 2019 • <a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores
+                                sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <img src="./images/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="">
+                        <div class="box_body">
+                            <h5>Many People Selling Online</h5>
+                            <span>by Maker spiker • Jan 18, 2019 • <a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores
+                                sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="box">
+                        <img src="./images/xhero_1.jpg.pagespeed.ic.6EEnhRLjFc.webp" alt="">
+                        <div class="box_body">
+                            <h5>Many People Selling Online</h5>
+                            <span>by Maker spiker • Jan 18, 2019 • <a href="#">News</a></span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores
+                                sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">View All Posts </a>
+        </div>
+    </section>
+    <!-- end testimonials -->
+
+
+
+
+
+
+    <!-- start news  -->
+    <section class="news">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-7">
+
+                    <div class="text">
+                        <h5>Newsletter</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form>
+                        <input type="email" class="form-control" placeholder="Email">
+                        <button type="submit" class="btn bg-light">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end news  -->
+
+
+
+
+    <!-- start footer  -->
+    <footer>
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-3">
+                    <div class="about text">
+                        <h5>About</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident rerum unde possimus
+                            molestias dolorem fuga, illo quis fugiat!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="navigations text">
+                        <h5>Navigationst</h5>
+                        <P>About Us</P>
+                        <P>Services</P>
+                        <P>Testimonials</P>
+                        <P>Contact Us</P>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="follow text">
+                        <h5>Follow Us</h5>
+                        <a href="#" class="pr-3">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="pr-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#" class="pr-3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="pr-3">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <form class="d-flex align-items-center">
+                        <input type="search" class="form-control" id="inputPassword2" placeholder="Search Products...">
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright text-center">
+                <p>Copyright ©2022 All rights reserved | This template is made by Colorlib</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer  -->
+
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
